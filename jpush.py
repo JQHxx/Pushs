@@ -8,7 +8,7 @@ sys.setdefaultencoding('utf8')
 import requests
 
 #苹果的测试环境0,生产环境 v3
-apns_production_boolean = True
+apns_production_boolean = False
 
 '''
     极光key配置
@@ -44,15 +44,16 @@ def https_request(app_key,body, url, content_type=None,version=None, params=None
     jpush v3 params
     支持离线消息，在线通知同时发送
 '''
-def push_params_v3(content,receiver_value=None,n_extras=None,platform="ios,android"):
+def push_params_v3(content,receiver_value=[''],n_extras={},platform="ios,android"):
     global apns_production_boolean
     sendno = int(time.time()+random.randint(10000000,99999900))
     payload =dict()
     payload['platform'] =platform
 
-    payload['audience'] ={
-        "alias" : receiver_value
-    }
+    payload['audience'] = 'all'
+#    {
+#        "alias" : receiver_value
+#    }
     #离线消息
     payload['message'] = {
         "msg_content" : content,
@@ -75,6 +76,8 @@ def jpush_v3(app_key,payload):
     #print body
     return https_request(app_key,body, "https://api.jpush.cn/v3/push",'application/json', version=1)
     
-payload = push_params_v3('测试内容')
-print payload
-print jpush_v3(apps['test'], payload)
+    
+if __name__=="__main__":
+    payload = push_params_v3('测试内容')
+    print payload
+    print jpush_v3(apps['test'], payload)
