@@ -8,6 +8,8 @@
 #import "ViewController.h"
 #import <AFNetworking.h>
 
+#define IS_iPHONE_X ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? ((NSInteger)(([[UIScreen mainScreen] currentMode].size.height/[[UIScreen mainScreen] currentMode].size.width)*100) == 216) : NO)
+
 @interface ViewController ()
 
 @end

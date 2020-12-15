@@ -13,6 +13,8 @@
 #define PUSH_API_HTTP @"http://msg.umeng.com/api/send"
 //#define PUSH_API_HTTPS @"https://msgapi.umeng.com/api/send"
 
+#define IS_iPHONE_X ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? ((NSInteger)(([[UIScreen mainScreen] currentMode].size.height/[[UIScreen mainScreen] currentMode].size.width)*100) == 216) : NO)
+
 @interface ViewController ()
 
 @end
@@ -60,6 +62,29 @@
          "device_tokens": "",
          "type": "broadcast"
      }
+     */
+    /*
+    NSDictionary *paramters = @{
+        @"production_mode": @"false",
+        @"payload": @{
+            @"display_type": @"notification",
+            @"aps": @{
+                @"alert": @{
+                    @"title": @"标题"
+                }
+            },
+            @"body": @{
+                @"title": @"你好",
+                @"after_open": @"go_app",
+                @"ticker": @"Hello World",
+                @"text": @"来自友盟推送"
+            }
+        },
+        @"timestamp": timestamp,
+        @"appkey": @"5f98d74333bd1851f689337d",
+        @"device_tokens": @"",
+        @"type": @"broadcast"
+    };
      */
     
     NSMutableDictionary *body = [NSMutableDictionary dictionary];
