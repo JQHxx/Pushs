@@ -1,0 +1,10 @@
+platform :ios,'9.0'
+inhibit_all_warnings!
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'UMAPIPush' do
+
+  pod 'AFNetworking', '~> 4.0.1'
+  pod 'MJExtension', '~> 3.2.1'
+
+end

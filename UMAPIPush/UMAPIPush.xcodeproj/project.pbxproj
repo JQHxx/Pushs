@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DEB9AA29F9D0045D3B033B6 /* libPods-UMAPIPush.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A81245013CA05D7A4567C5E2 /* libPods-UMAPIPush.a */; };
+		A081AC17254A49CC0075758A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A081AC16254A49CC0075758A /* AppDelegate.m */; };
+		A081AC1D254A49CC0075758A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A081AC1C254A49CC0075758A /* ViewController.m */; };
+		A081AC20254A49CC0075758A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A081AC1E254A49CC0075758A /* Main.storyboard */; };
+		A081AC22254A49CD0075758A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A081AC21254A49CD0075758A /* Assets.xcassets */; };
+		A081AC25254A49CD0075758A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A081AC23254A49CD0075758A /* LaunchScreen.storyboard */; };
+		A081AC28254A49CD0075758A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A081AC27254A49CD0075758A /* main.m */; };
+		A081AC32254A49CD0075758A /* UMAPIPushTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A081AC31254A49CD0075758A /* UMAPIPushTests.m */; };
+		A081AC3D254A49CD0075758A /* UMAPIPushUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A081AC3C254A49CD0075758A /* UMAPIPushUITests.m */; };
+		A081AC63254A4CA20075758A /* MD5Encrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = A081AC62254A4CA20075758A /* MD5Encrypt.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A081AC2E254A49CD0075758A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A081AC0A254A49CC0075758A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A081AC11254A49CC0075758A;
+			remoteInfo = UMAPIPush;
+		};
+		A081AC39254A49CD0075758A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A081AC0A254A49CC0075758A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A081AC11254A49CC0075758A;
+			remoteInfo = UMAPIPush;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C9ED2F973DEE7A893D1AD70 /* Pods-UMAPIPush.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UMAPIPush.release.xcconfig"; path = "Target Support Files/Pods-UMAPIPush/Pods-UMAPIPush.release.xcconfig"; sourceTree = "<group>"; };
+		A081AC12254A49CC0075758A /* UMAPIPush.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UMAPIPush.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A081AC15254A49CC0075758A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A081AC16254A49CC0075758A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A081AC1B254A49CC0075758A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A081AC1C254A49CC0075758A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A081AC1F254A49CC0075758A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A081AC21254A49CD0075758A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A081AC24254A49CD0075758A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A081AC26254A49CD0075758A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A081AC27254A49CD0075758A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A081AC2D254A49CD0075758A /* UMAPIPushTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UMAPIPushTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A081AC31254A49CD0075758A /* UMAPIPushTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UMAPIPushTests.m; sourceTree = "<group>"; };
+		A081AC33254A49CD0075758A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A081AC38254A49CD0075758A /* UMAPIPushUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UMAPIPushUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A081AC3C254A49CD0075758A /* UMAPIPushUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UMAPIPushUITests.m; sourceTree = "<group>"; };
+		A081AC3E254A49CD0075758A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A081AC61254A4CA20075758A /* MD5Encrypt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MD5Encrypt.h; sourceTree = "<group>"; };
+		A081AC62254A4CA20075758A /* MD5Encrypt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MD5Encrypt.m; sourceTree = "<group>"; };
+		A81245013CA05D7A4567C5E2 /* libPods-UMAPIPush.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UMAPIPush.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F419D37A99F7BCCF42C9C61F /* Pods-UMAPIPush.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UMAPIPush.debug.xcconfig"; path = "Target Support Files/Pods-UMAPIPush/Pods-UMAPIPush.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A081AC0F254A49CC0075758A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DEB9AA29F9D0045D3B033B6 /* libPods-UMAPIPush.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A081AC2A254A49CD0075758A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A081AC35254A49CD0075758A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82AD9A5929D77FB444CFBAC4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F419D37A99F7BCCF42C9C61F /* Pods-UMAPIPush.debug.xcconfig */,
+				8C9ED2F973DEE7A893D1AD70 /* Pods-UMAPIPush.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A081AC09254A49CC0075758A = {
+			isa = PBXGroup;
+			children = (
+				A081AC14254A49CC0075758A /* UMAPIPush */,
+				A081AC30254A49CD0075758A /* UMAPIPushTests */,
+				A081AC3B254A49CD0075758A /* UMAPIPushUITests */,
+				A081AC13254A49CC0075758A /* Products */,
+				82AD9A5929D77FB444CFBAC4 /* Pods */,
+				F5D9F1DABB86E6AE014F43F4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A081AC13254A49CC0075758A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A081AC12254A49CC0075758A /* UMAPIPush.app */,
+				A081AC2D254A49CD0075758A /* UMAPIPushTests.xctest */,
+				A081AC38254A49CD0075758A /* UMAPIPushUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A081AC14254A49CC0075758A /* UMAPIPush */ = {
+			isa = PBXGroup;
+			children = (
+				A081AC50254A4A100075758A /* Class */,
+				A081AC15254A49CC0075758A /* AppDelegate.h */,
+				A081AC16254A49CC0075758A /* AppDelegate.m */,
+				A081AC1B254A49CC0075758A /* ViewController.h */,
+				A081AC1C254A49CC0075758A /* ViewController.m */,
+				A081AC1E254A49CC0075758A /* Main.storyboard */,
+				A081AC21254A49CD0075758A /* Assets.xcassets */,
+				A081AC23254A49CD0075758A /* LaunchScreen.storyboard */,
+				A081AC26254A49CD0075758A /* Info.plist */,
+				A081AC27254A49CD0075758A /* main.m */,
+			);
+			path = UMAPIPush;
+			sourceTree = "<group>";
+		};
+		A081AC30254A49CD0075758A /* UMAPIPushTests */ = {
+			isa = PBXGroup;
+			children = (
+				A081AC31254A49CD0075758A /* UMAPIPushTests.m */,
+				A081AC33254A49CD0075758A /* Info.plist */,
+			);
+			path = UMAPIPushTests;
+			sourceTree = "<group>";
+		};
+		A081AC3B254A49CD0075758A /* UMAPIPushUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A081AC3C254A49CD0075758A /* UMAPIPushUITests.m */,
+				A081AC3E254A49CD0075758A /* Info.plist */,
+			);
+			path = UMAPIPushUITests;
+			sourceTree = "<group>";
+		};
+		A081AC50254A4A100075758A /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				A081AC61254A4CA20075758A /* MD5Encrypt.h */,
+				A081AC62254A4CA20075758A /* MD5Encrypt.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		F5D9F1DABB86E6AE014F43F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A81245013CA05D7A4567C5E2 /* libPods-UMAPIPush.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A081AC11254A49CC0075758A /* UMAPIPush */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A081AC41254A49CD0075758A /* Build configuration list for PBXNativeTarget "UMAPIPush" */;
+			buildPhases = (
+				C2CB929C062C5F79F3222065 /* [CP] Check Pods Manifest.lock */,
+				A081AC0E254A49CC0075758A /* Sources */,
+				A081AC0F254A49CC0075758A /* Frameworks */,
+				A081AC10254A49CC0075758A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UMAPIPush;
+			productName = UMAPIPush;
+			productReference = A081AC12254A49CC0075758A /* UMAPIPush.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A081AC2C254A49CD0075758A /* UMAPIPushTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A081AC44254A49CD0075758A /* Build configuration list for PBXNativeTarget "UMAPIPushTests" */;
+			buildPhases = (
+				A081AC29254A49CD0075758A /* Sources */,
+				A081AC2A254A49CD0075758A /* Frameworks */,
+				A081AC2B254A49CD0075758A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A081AC2F254A49CD0075758A /* PBXTargetDependency */,
+			);
+			name = UMAPIPushTests;
+			productName = UMAPIPushTests;
+			productReference = A081AC2D254A49CD0075758A /* UMAPIPushTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A081AC37254A49CD0075758A /* UMAPIPushUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A081AC47254A49CD0075758A /* Build configuration list for PBXNativeTarget "UMAPIPushUITests" */;
+			buildPhases = (
+				A081AC34254A49CD0075758A /* Sources */,
+				A081AC35254A49CD0075758A /* Frameworks */,
+				A081AC36254A49CD0075758A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A081AC3A254A49CD0075758A /* PBXTargetDependency */,
+			);
+			name = UMAPIPushUITests;
+			productName = UMAPIPushUITests;
+			productReference = A081AC38254A49CD0075758A /* UMAPIPushUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A081AC0A254A49CC0075758A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					A081AC11254A49CC0075758A = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					A081AC2C254A49CD0075758A = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = A081AC11254A49CC0075758A;
+					};
+					A081AC37254A49CD0075758A = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = A081AC11254A49CC0075758A;
+					};
+				};
+			};
+			buildConfigurationList = A081AC0D254A49CC0075758A /* Build configuration list for PBXProject "UMAPIPush" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A081AC09254A49CC0075758A;
+			productRefGroup = A081AC13254A49CC0075758A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A081AC11254A49CC0075758A /* UMAPIPush */,
+				A081AC2C254A49CD0075758A /* UMAPIPushTests */,
+				A081AC37254A49CD0075758A /* UMAPIPushUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A081AC10254A49CC0075758A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A081AC25254A49CD0075758A /* LaunchScreen.storyboard in Resources */,
+				A081AC22254A49CD0075758A /* Assets.xcassets in Resources */,
+				A081AC20254A49CC0075758A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A081AC2B254A49CD0075758A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A081AC36254A49CD0075758A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C2CB929C062C5F79F3222065 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UMAPIPush-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A081AC0E254A49CC0075758A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A081AC1D254A49CC0075758A /* ViewController.m in Sources */,
+				A081AC17254A49CC0075758A /* AppDelegate.m in Sources */,
+				A081AC63254A4CA20075758A /* MD5Encrypt.m in Sources */,
+				A081AC28254A49CD0075758A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A081AC29254A49CD0075758A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A081AC32254A49CD0075758A /* UMAPIPushTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A081AC34254A49CD0075758A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A081AC3D254A49CD0075758A /* UMAPIPushUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A081AC2F254A49CD0075758A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A081AC11254A49CC0075758A /* UMAPIPush */;
+			targetProxy = A081AC2E254A49CD0075758A /* PBXContainerItemProxy */;
+		};
+		A081AC3A254A49CD0075758A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A081AC11254A49CC0075758A /* UMAPIPush */;
+			targetProxy = A081AC39254A49CD0075758A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A081AC1E254A49CC0075758A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A081AC1F254A49CC0075758A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A081AC23254A49CD0075758A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A081AC24254A49CD0075758A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A081AC3F254A49CD0075758A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A081AC40254A49CD0075758A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A081AC42254A49CD0075758A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F419D37A99F7BCCF42C9C61F /* Pods-UMAPIPush.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UMAPIPush/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.UMAPIPush;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A081AC43254A49CD0075758A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C9ED2F973DEE7A893D1AD70 /* Pods-UMAPIPush.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UMAPIPush/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.UMAPIPush;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A081AC45254A49CD0075758A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UMAPIPushTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ofweek.UMAPIPushTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UMAPIPush.app/UMAPIPush";
+			};
+			name = Debug;
+		};
+		A081AC46254A49CD0075758A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UMAPIPushTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ofweek.UMAPIPushTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UMAPIPush.app/UMAPIPush";
+			};
+			name = Release;
+		};
+		A081AC48254A49CD0075758A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UMAPIPushUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ofweek.UMAPIPushUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UMAPIPush;
+			};
+			name = Debug;
+		};
+		A081AC49254A49CD0075758A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UMAPIPushUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ofweek.UMAPIPushUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UMAPIPush;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A081AC0D254A49CC0075758A /* Build configuration list for PBXProject "UMAPIPush" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A081AC3F254A49CD0075758A /* Debug */,
+				A081AC40254A49CD0075758A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A081AC41254A49CD0075758A /* Build configuration list for PBXNativeTarget "UMAPIPush" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A081AC42254A49CD0075758A /* Debug */,
+				A081AC43254A49CD0075758A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A081AC44254A49CD0075758A /* Build configuration list for PBXNativeTarget "UMAPIPushTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A081AC45254A49CD0075758A /* Debug */,
+				A081AC46254A49CD0075758A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A081AC47254A49CD0075758A /* Build configuration list for PBXNativeTarget "UMAPIPushUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A081AC48254A49CD0075758A /* Debug */,
+				A081AC49254A49CD0075758A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A081AC0A254A49CC0075758A /* Project object */;
+}
