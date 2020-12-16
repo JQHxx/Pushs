@@ -1,0 +1,6 @@
+framework module Pods_APIJpushSwiftTests {
+  umbrella header "Pods-APIJpushSwiftTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
