@@ -21,7 +21,8 @@ class ViewController: UIViewController {
             "platform": "all",
             "audience": "all",
             "notification": [
-                "alert": "Hi,JPush !"
+                "alert": "Hi,JPush !",
+                "test": "https://www.baidu.com"
             ],
             "options": [
                 "apns_production": false
