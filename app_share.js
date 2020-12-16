@@ -10,6 +10,17 @@ function Initialize(){
 				//当收到iOS调用JS时做的操作
 				getShare();
 			});
+
+			//文章图片点击(直接调用)
+			$('.text-part img').click(function(){
+				var src = $(this).attr('src');
+				var params = {"src":src};
+				if(getPlatform()=='ios'){
+					curBridge.callHandler('pushSrc', params, function(response) {
+						
+					});
+				}
+			})
         });
     }
 }
